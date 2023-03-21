@@ -8,16 +8,7 @@ const privateKey = process.env.PRIVATE_KEY;
 const contractABI = require("./abi.json"); // ABI of the contract
 const contractInstance = new web3.eth.Contract(contractABI, contractAddress);
 
-const froms = ["0x945eb86fb5bea0c46b96bbdf333743a03273fcc9",
-"0x44c4f092c43654fb9979f8b13ec7605381aa679a",
-"0x4bd04eea6328341422aaf23442dadbd97a8172c3",
-"0xa7451041fb54aa4cdba51d4d39dfe3cf700fa010",
-"0xca45c7914a9c1d7456fe3f7b0db1dbb3d6ebb94e",
-"0x99e20865f312f647e86123dbe6790dac653e8603",
-"0x2e659d495eb6567c00eda426065c88972daa6714",
-"0x2170bf1361ade4a0753d45d085e8f2f7ac91bbe7",
-"0xc838bd94088121e9526e282fa76d815cc23c7081",
-"0xc101fee41dcc8762a5f14799ebea8f50a78a8cbc"]
+
 const tokens = ["0xb809b9B2dc5e93CB863176Ea2D565425B03c0540",// BUSD Goerli
 "0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557", // USDC Goerli
 "0xb809b9B2dc5e93CB863176Ea2D565425B03c0540", // BUSD Goerli
